@@ -23,7 +23,7 @@ router.get('/have-fun',function(req, res){
   res.sendFile(path + 'have-fun.html');
 });
 
-router.get('/itgirlquiz',function(req, res){
+router.get('/itgirlsquiz',function(req, res){
   res.sendFile(path + 'quiz.html');
 });
   
