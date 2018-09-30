@@ -31,6 +31,6 @@ router.get('/prizes',function(req, res){
   res.sendFile(path + 'prizes.html');
 });
   
-app.listen(3000,function(){
+app.listen(process.env.PORT || 3000,function(){
   console.log('Server running at Port 3000');
 });
